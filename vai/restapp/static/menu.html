@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        /* Simple Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #ff6f61;
+            text-align: center;
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom:-10px;
+            padding: -10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .menu-item p {
+            margin: 2px;
+            color: #777;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #ff6f61;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>VAISHAK'S RESTAURANT- Menu</h1>
+    </header>
+
+    <section>
+        <h2>Our Menu</h2>
+        
+        <div class="menu-item">
+            <img src="noodles.jpg" alt="Chicken noodles">
+            <div>
+                <h3>Chicken noodles</h3>
+                <p>Classic chinese chicken noodles with tomato & chilli sauce.</p>
+                <span class="price">Rs.120</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="shawarma.jpg" alt="Shawarma">
+            <div>
+                <h3>Shawarma</h3>
+                <p> Juicy Shawarma.</p>
+                <span class="price">Rs.90</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="grill.jpg" alt="Grilled Chicken ">
+            <div>
+                <h3>Grilled chicken</h3>
+                <p>Spicy grill with mint chuttney and mayonese </p>
+                <span class="price">Rs.440 per kg</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="amb.jpg" alt="Special ambur biriyani">
+            <div>
+                <h3>Special ambur biriyani</h3>
+                <p>Spicy and tasty biriyani</p>
+                <span class="price">Rs.150</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="falooda.jpg" alt="Falooda">
+            <div>
+                <h3>Falooda </h3>
+                <p>Chill falooda with fruits.</p>
+                <span class="price">Rs.90</span>
+            </div>
+        </div>
+
+        
+    </section>
+
+   
+
+</body>
+</html>
